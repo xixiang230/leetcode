@@ -58,9 +58,10 @@ int* twoSum(int* nums, int numsSize, int target) {
 
 int main() {
     //int inData[3] = {3, 2, 4};
-    int inData[4] = {2, 7, 11, 15};
+    //int inData[4] = {2, 7, 11, 15};
+    int inData[4] = {0, 4, 3, 0};
     //int inData[4] = {-3, 4, 3, 90};
-    int* p = twoSum(inData, 4, 26);
+    int* p = twoSum(inData, 4, 0);
     free(p);
     return 0;
 }
